@@ -1,0 +1,11 @@
+@use "../utils/color-config" as color;
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: map-get(color.$yellow-collection, 300);
+}

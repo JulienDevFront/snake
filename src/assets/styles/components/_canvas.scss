@@ -1,0 +1,6 @@
+@use "../utils/color-config.scss" as color;
+
+#canvas {
+    border-radius: 4px;
+    border: 1px solid color.$black;
+}

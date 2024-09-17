@@ -1,0 +1,27 @@
+@use "./fonts-title-config.scss" as title;
+@use "./fonts-text-config.scss" as text;
+@use "./fonts-size-config.scss" as size;
+@use "./fonts-color-config.scss" as font-color;
+
+* {
+    color: map-get(font-color.$text-colors, primary);
+    text-decoration: none;
+}
+h1 {
+    @include title.title-bold(map-get(size.$title, h1), map-get(font-color.$text-colors, primary));
+}
+h2 {
+    @include title.title-bold(map-get(size.$title, h2), map-get(font-color.$text-colors, secondary));
+}
+p {
+    @include text.text-light(map-get(size.$paragraph, regular), map-get(font-color.$text-colors, primary));
+}
+button {
+    @include text.text-light(map-get(size.$paragraph, regular), map-get(font-color.$text-colors, primary));
+}
+label {
+    @include text.text-light(map-get(size.$paragraph, regular), map-get(font-color.$text-colors, primary));
+}
+input::placeholder {
+    @include text.text-light(map-get(size.$paragraph, regular), rgba(map-get(font-color.$text-colors, primary), 0.8));
+}

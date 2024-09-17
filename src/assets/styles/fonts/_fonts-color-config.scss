@@ -1,0 +1,26 @@
+$text-colors: (
+    primary: #1e1e1e,
+    secondary: #000000,
+    tertiary: #bebec1,
+    quaternary: #ffffff,
+);
+
+$text-input-color: (
+    label: #4e4e4e,
+    input: #4e4e4e,
+    placeholder: #4e4e4e,
+);
+
+$text-crud-color: (
+    create: #e3f988,
+    read: #bfcdff,
+    upload: #ffbb55,
+    delete: #fa8072,
+);
+
+$text-info-color: (
+    validate: #e3f988,
+    info: #bfcdff,
+    warning: #ffbb55,
+    error: #fa8072,
+);

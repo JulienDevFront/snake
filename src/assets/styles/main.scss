@@ -1,0 +1,7 @@
+// import of the folders "normalize", global and fonts. // import of the folders "normalize", global and fonts.
+// import of the folders "normalize", global and fonts. // import of the folders "normalize", global and fonts.
+@use "./base/normalize.scss";
+@use "./fonts/normalize-fonts.scss";
+
+@use "./layout/body.scss";
+@use "./components/canvas.scss";

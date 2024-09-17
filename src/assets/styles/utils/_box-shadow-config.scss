@@ -1,0 +1,9 @@
+@use "./color-config.scss" as color;
+
+@mixin shadow-container {
+    box-shadow: 2px -4px 8px color.$white, -2px 4px 8px rgba(map-get(color.$gray-collection, 500), 0.5);
+}
+
+@mixin shadow-inset-container($color) {
+    box-shadow: inset 2px 2px 2px $color;
+}
